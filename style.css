@@ -1,0 +1,21 @@
+h1 {
+    font-size: 5em;
+}
+
+#profile_pic {
+    height: 400px;
+}
+
+.social_media {
+    height: 50px;
+}
+
+body {
+    background-color: #4c7ea8;
+    color:rgb(201, 174, 23);
+}
+
+a {
+    color: rgb(148, 0, 0);
+    text-decoration: none;
+}
