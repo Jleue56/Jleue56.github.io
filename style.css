@@ -1,9 +1,12 @@
 h1 {
     font-size: 5em;
+    text-align: center;
 }
 
 #profile_pic {
-    height: 400px;
+    height: 300px;
+    margin: auto;
+    display: block;
 }
 
 .social_media {
@@ -11,11 +14,30 @@ h1 {
 }
 
 body {
-    background-color: #4c7ea8;
-    color:rgb(201, 174, 23);
+    background-color: #121212;
+    color: rgb(219, 219, 219);
+}
+
+ul {
+    justify-content: center;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
-    color: rgb(148, 0, 0);
+    color: rgb(209, 54, 54);
     text-decoration: none;
+}
+
+.media_container {
+    display:flex;
+    gap: 10px 20px;
+    margin-top: auto;
+    justify-content: center;
+
+}
+
+#social_plug {
+    text-align: center;
 }
